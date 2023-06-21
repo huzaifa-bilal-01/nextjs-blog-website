@@ -8,7 +8,7 @@ function Footer () {
                     <a href="https://www.facebook.com/profile.php?id=100093702731832">
                     <FaFacebook />
                     </a>
-                    <a href="https://www.linkedin.com">
+                    <a href="https://www.linkedin.com/in/huzaifa-bilal-0a3481231">
                     <FaLinkedin />
                     </a>
                     <a href="https://www.instagram.com/itx_me_huz/">
