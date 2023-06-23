@@ -14,12 +14,15 @@ function PostContent(props) {
                 <Image 
                 src={`/images/posts/${post.slug}/${image.src}`} 
                 alt={image.alt}
+                layout = "responsive"
                 width = {600}
                 height = {300} 
+                sizes="(max-width: 768px) 100vw, 600px"
             />
             )
-        }
+        }   
     }
+
     return(
         <article className={classes.content}>
             <PostHeader title={post.title} image = {ImagePath} />
